@@ -1,7 +1,7 @@
 /* Used with Great Thanks from http://codepen.io/devilskitchen/pen/jkdgK */
 
 .coverflow-container {
-  margin-top:200px;
+  margin-top:50px;
   box-reflect: below 0px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.1) 100%);
 }
 label {
@@ -87,3 +87,53 @@ input[type="radio"]:checked + .coverflow-item ~ .coverflow-item {
   0% { transform: rotateY( 45deg ); }
   100% { transform: rotateY( 0deg ) translate3d( 150px,0,0 ) scale3d(1.2,1.2,1.2); }
 }*/
+
+
+
+
+@media (min-width: 640px) {
+
+  .coverflow-list .coverflow-item .album-cover {
+    display: block;
+    height: 145px;
+  }
+  .coverflow-list .coverflow-item .album-cover img {
+    height: 145px;
+    width: 145px;
+    opacity: 0.5;
+  }
+
+
+}
+
+
+@media (min-width: 768px) {
+
+  .coverflow-list .coverflow-item .album-cover {
+    display: block;
+    height: 150px;
+  }
+  .coverflow-list .coverflow-item .album-cover img {
+    height: 150px;
+    width: 150px;
+    opacity: 0.5;
+  }
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+  .coverflow-list .coverflow-item .album-cover {
+    display: block;
+    height: 200px;
+  }
+  .coverflow-list .coverflow-item .album-cover img {
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+  }
+
+
+}
