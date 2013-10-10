@@ -8,11 +8,6 @@ body {
   color: #5a5a5a;
 }
 
-.header{
-  font-size: -webkit-xxx-large;
-  margin-top: 200px;
-}
-
 .centered{
     float: none;
     margin: 0 auto;
@@ -21,6 +16,7 @@ body {
 label{
   background:white;
 }
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
