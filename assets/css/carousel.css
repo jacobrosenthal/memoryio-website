@@ -91,7 +91,7 @@ label{
   letter-spacing: -1px;
   width: 49%;
   display: inline-block;
-  padding-right: 30px
+  padding-right: 30px;
 }
 
 .featurette-image-left{
@@ -123,6 +123,50 @@ label{
     margin-bottom: 20px;
     width:inherit;
   }
+
+}
+
+
+@media (min-width: 400px) {
+
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading-right {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  width: inherit;
+  display: inherit;
+  margin-left: inherit;
+  padding-left: inherit;
+}
+
+  /* vertical align text in feature header*/
+.featurette-heading-left {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  width: inherit;
+  display: inherit;
+  padding-right: inherit;
+}
+
+.featurette-image-left{
+  width: inherit;
+  display: inherit;
+  max-width: 100%;
+}
+
+.featurette-image-right{
+  width: inherit;
+  display: inherit;
+  max-width: 100%;
+  margin-left: inherit;
+}
+
 
 }
 
