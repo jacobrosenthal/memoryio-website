@@ -18,7 +18,12 @@ label{
 }
 
 .header{
-    margin-top:100px;
+    margin-top:75px;
+}
+
+.logo{
+  background: white url(../img/io_logo.png) no-repeat top left fixed;
+  background-size: 53px;
 }
 
 /* CUSTOMIZE THE NAVBAR
