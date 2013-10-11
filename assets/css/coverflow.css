@@ -99,11 +99,11 @@ input[type="radio"]:checked + .coverflow-item ~ .coverflow-item {
 
   .coverflow-list .coverflow-item .album-cover {
     display: block;
-    height: 110px;
+    height: 119px;
   }
   .coverflow-list .coverflow-item .album-cover img {
-    height: 110px;
-    width: 110px;
+    height: 119px;
+    width: 119px;
     opacity: 0.5;
   }
 
@@ -113,11 +113,11 @@ input[type="radio"]:checked + .coverflow-item ~ .coverflow-item {
 
   .coverflow-list .coverflow-item .album-cover {
     display: block;
-    height: 145px;
+    height: 137px;
   }
   .coverflow-list .coverflow-item .album-cover img {
-    height: 145px;
-    width: 145px;
+    height: 137px;
+    width: 137px;
     opacity: 0.5;
   }
 

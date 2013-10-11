@@ -50,8 +50,8 @@ label{
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -127,8 +127,8 @@ label{
 
   /* Remove the edge padding needed for mobile */
   .marketing {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   /* Navbar positioning foo */
