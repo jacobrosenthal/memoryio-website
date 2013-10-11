@@ -127,7 +127,7 @@ label{
 }
 
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 
 .featurette-divider {
   margin: 20px 0; /* Space out the Bootstrap <hr> more */
