@@ -3,6 +3,7 @@
 .coverflow-container {
   margin-top:50px;
   margin-bottom:50px;
+  margin-left: -35px; 
   box-reflect: below 0px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.1) 100%);
 }
 
