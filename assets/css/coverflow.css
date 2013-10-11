@@ -2,6 +2,7 @@
 
 .coverflow-container {
   margin-top:50px;
+  margin-bottom:50px;
   box-reflect: below 0px -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.1) 100%);
 }
 
@@ -27,7 +28,7 @@
 }
 .coverflow-list .coverflow-item .album-name {
   text-align: center;
-  display: block;
+  display: none;
   color: #444;
   margin-top: 10px;
 }

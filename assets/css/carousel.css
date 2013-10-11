@@ -159,6 +159,7 @@ kill all padding */
   display: inherit;
   margin-left: inherit;
   padding-left: inherit;
+  text-align:center;
 }
 
   /* vertical align text in feature header*/
@@ -169,6 +170,7 @@ kill all padding */
   width: inherit;
   display: inherit;
   padding-right: inherit;
+  text-align:center;
 }
 
 .featurette-image-left{
