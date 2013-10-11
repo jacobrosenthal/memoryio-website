@@ -8,6 +8,7 @@ body {
   color: #5a5a5a;
 }
 
+/* center bootstrap divs*/
 .centered{
     float: none;
     margin: 0 auto;
@@ -17,6 +18,7 @@ label{
   background:white;
 }
 
+/* space the first div down from the top of the page*/
 .header{
     margin-top:75px;
 }
@@ -24,6 +26,12 @@ label{
 .logo{
   background: white url(../img/io_logo.png) no-repeat top left fixed;
   background-size: 53px;
+}
+
+/* want large butons, but not so fucking large */
+.buttonfix{
+  width: 300px;
+  margin: auto auto;
 }
 
 /* CUSTOMIZE THE NAVBAR
