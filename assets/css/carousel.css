@@ -71,20 +71,22 @@ label{
 
   /* vertical align text in feature header*/
 .featurette-heading {
-  margin-top: 15%;
-  margin-bottom: 15%;
-
+  width: 49%;
+  display: inline-block;
 }
 
 .featurette-image{
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+  display: inline-block;
 }
 
-  /* that margin is too big for smaller images image*/
-.small {
-  margin-top: 20px;
+.smallimage{
+
+  vertical-align:inherit;
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -94,12 +96,6 @@ label{
 
 @media (min-width: 768px) {
 
-    /* vertical align text in feature header*/
-  .featurette-heading {
-    margin-top: 10%;
-    margin-bottom: 10%;
-
-  }
 
 
   /* Remove the edge padding needed for mobile */
