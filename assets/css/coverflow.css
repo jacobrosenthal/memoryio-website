@@ -95,20 +95,6 @@ input[type="radio"]:checked + .coverflow-item ~ .coverflow-item {
 }
 
 
-@media (min-width: 480px) {
-
-  .coverflow-list .coverflow-item .album-cover {
-    display: block;
-    height: 119px;
-  }
-  .coverflow-list .coverflow-item .album-cover img {
-    height: 119px;
-    width: 119px;
-    opacity: 0.5;
-  }
-
-}
-
 @media (min-width: 640px) {
 
   .coverflow-list .coverflow-item .album-cover {

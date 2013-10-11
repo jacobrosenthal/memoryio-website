@@ -127,13 +127,30 @@ label{
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 640px) {
 
-.featurette-divider {
-  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+.marketing {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/* Thin out the marketing headings */
+/* lets go scrolling instead of fixed because we can't afford all the padding/margins  */
+.logo{
+  background: white url(../img/io_logo.png) no-repeat top left scroll;
+  background-size: 53px; 
+}
+
+.featurette-divider {
+  margin: 20px 0; /* Space out the Bootstrap <hr> less */
+}
+
+.smallimage{
+
+  vertical-align:middle;
+}
+
+/* for small screens where heading and img become horizontal
+kill all padding */ 
 .featurette-heading-right {
   font-weight: 300;
   line-height: 1;
